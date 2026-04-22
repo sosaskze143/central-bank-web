@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "centralbankproject",
+  "private_key_id": "16809bdfb8f80cf0a6a495381f7db3fc8ef2f6e3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCk+gwiQChqLCM\nHOFQcfdrTJPNijsQ6/n+u05waKCNObgNwD4AfILVV3CsWfOUQH3065oYrO7q4HaX\nBpGaLoBLDZ1aaAlEArlc2XOgN/AYjaIcwUb2hAZgl5o0p+2UyvvXUyiRpL55yvaH\n3C6ke7nFpN88IO78WYvaGfE7sxQFeVLVcigi2GlL1VF+sKzg8H8bcjI48XHtFUcL\nytKw1w6lYvFriXBySWGxqJYMAItq7MM3MICzztOeFbyGwl1vWEd3L8aMo5FHLPud\nGW0FmX0fTvF50fuJBlTQbKe2vLaOQJRX5zMfc9nH58vK8u6nBsN0aMLhx7e5XnaM\nCn1ZEtjvAgMBAAECggEAEbjI8Aq6XP7xPYGv39TRdRtfZtwNLyhe9511snVFEjfM\nlKwKuZ6dh/LT107GCZ2qGzGOMmslw4y4IF8/yawskSlnSIGrPl+FJHjFuDUAECxu\nNHJCFVfHAOst51fYIrIuJ9lyG3nGw28B7zPVp7OBIwg2MNLLEX7SZwXv28EetLTE\nbVscJcJKDkGBcwy/Lyu1E9LH2Vrgj6HTkJB3FrfCrs20scGtesRaCakLG9boqqfz\nCVh+2lXXA9SztiosCnfcTMp1RxYCKl1Iu9ZsMbvBEe0ewcB/tWK3y8TKtdHfciIG\nE9hNas3fwLoKvjGZVOiE6miQ88zCikuNMRJQRjsOsQKBgQDpbdjCe2ij5hTYl7W7\nZREaa4D3qg7B8f9rD2mI3N//kGsXQtYwp3zZe5arBu5Qa563gknweBLQmGspIE0x\nj7nQY3pC2YRQkAwdp7kbA8rB1ueiIMulU9Nq+eMhcXbQXG8Ydy+DH5mG2um87aos\n3RjTAJAVIjodbwsr/7aNh6JQNwKBgQDVZFwLmCZPu0oy+Hhho+Rbknvxg30srZHX\nQFtMhahXfvilTQK2BBraukp/YBRPbkXz+g573mE+x5OFgpjubhkXtV2BO1KqP1J8\nChWmiHqX3u7ksK1o3oDgYboun6gPHBjBUcwtRX2pUd/YNvLqQOhqCzilq2hyZuKP\nW2nheFixCQKBgQC6ndEPGm47qfO8fP0TBee4gX2nglMuBnQ2eSnb+wkxXZngDNUE\nLMKJdF6t+GqJ7KAFAapvDu+ryE7ToDlWiBr7WKwjyZYYejDVfINl75Ani9G/Mgzc\n7bk16vUEhZuBVISUwKRBZf/tahI3sqG8ID56YhbOboCbi20ZDeQ6HddL3QKBgQDL\nJgL2yr9WUm/9/EvmcHd6sgaq0sn9GbRo3ozMWcX8nhUqkRkOnPPP3WAEyTwsrkeM\nUDcvt3KOqMMJbF4ZRtk+l9vPpuE40JW/Hn6kDvPe105IiuZbms/ITWFI95ev4siy\naiPdyXUrF5Xpqc4yMt7P7aTdG0SQ/N+dKKKxErgkuQKBgFDZZ0SlKqvzxhMaeEiW\njTLE4Axh+svuiqzdRsBqpQzS2M9G2Vr9BP2LMnDMg6bZhSyafb3QFUwHpUkMsRL5\nduCRxqoChQjslBbRvvDanNjzIL0z/VuxagJ95E9BjkvOl6eZ5nDu13agFgnsXAk8\n4bmBTEms0iYKjvNAbE4hymRE\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@centralbankproject.iam.gserviceaccount.com",
+  "client_id": "103036207546826031329",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40centralbankproject.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

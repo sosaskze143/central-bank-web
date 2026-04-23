@@ -38,16 +38,12 @@ API_KEY = "AIzaSyDKo86mLaLYLQox20QvM3gM2BtiPN8H9go"
 genai.configure(api_key=API_KEY)
 
 def extract_with_fallback(file_bytes, mime_type):
-    # ترتيب الموديلات للتنقل بينها في حال الفشل
-    models = ["gemini-1.5-flash", "gemini-2.0-flash"]
+    # قائمة موديلات محدثة وأكثر استقراراً
+    models = ["gemini-1.5-flash", "gemini-1.5-flash-8b", "gemini-1.0-pro"]
     
     prompt = """
-    Extract the following data from the document:
-    1. Full Name (الاسم الرباعي)
-    2. National ID (رقم الهوية)
-    3. Registration Number (رقم التسجيل) - MUST BE CASE SENSITIVE.
-    
-    Return ONLY a valid JSON: {"name": "...", "id": "...", "reg": "..."}
+    Extract: 1. Full Name, 2. National ID, 3. Registration Number.
+    Return ONLY JSON: {"name": "...", "id": "...", "reg": "..."}
     """
     
     for model_name in models:
@@ -57,14 +53,16 @@ def extract_with_fallback(file_bytes, mime_type):
                 prompt,
                 {'mime_type': mime_type, 'data': file_bytes}
             ])
-            # تنظيف النص المستخرج لضمان أنه JSON نقي
-            clean_text = response.text.replace("```json", "").replace("```", "").strip()
-            return json.loads(clean_text)
+            
+            # التأكد من استلام نص صحيح
+            if response and response.text:
+                clean_text = response.text.replace("```json", "").replace("```", "").strip()
+                return json.loads(clean_text)
         except Exception as e:
-            print(f"Model {model_name} failed: {e}")
-            continue
+            print(f"⚠️ Model {model_name} skipped. Reason: {e}")
+            continue # جرب الموديل اللي بعده
+            
     return None
-
 # --- 3. المسارات (Routes) ---
 
 @app.route('/')
